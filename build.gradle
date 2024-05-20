@@ -21,10 +21,6 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
-jar {
-	archiveBaseName = 'spring-boot-new'
-}
-
 tasks.named('test') {
 	useJUnitPlatform()
 }
