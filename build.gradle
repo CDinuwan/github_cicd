@@ -23,7 +23,6 @@ dependencies {
 
 bootJar {
 	archiveBaseName = 'springboot-images-new'
-	archiveVersion =  ''
 }
 
 tasks.named('test') {
