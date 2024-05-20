@@ -23,7 +23,6 @@ dependencies {
 
 jar {
 	archiveBaseName = 'spring-boot-new'
-	archiveVersion =  '0.1.0'
 }
 
 tasks.named('test') {
