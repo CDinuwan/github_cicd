@@ -36,6 +36,9 @@ jobs:
         gradle-version: current
         gradle-home-cache-cleanup: true
 
+    - name: fix permission issues
+      run : chmod +x gradlew
+      
     - name: Execute build with Gradle wrapper
       run: ./gradlew build
 
